@@ -33,7 +33,7 @@ Use `logback-android` unless your app must support devices older than Android 8.
 
     ```groovy
     dependencies {
-      implementation 'org.slf4j:slf4j-api:2.0.7'
+      implementation 'org.slf4j:slf4j-api:2.0.18'
       implementation 'com.github.tony19:logback-android:3.0.0'
     }
     ```
@@ -42,7 +42,7 @@ Use `logback-android` unless your app must support devices older than Android 8.
 
     ```groovy
     dependencies {
-      implementation 'org.slf4j:slf4j-api:2.0.7'
+      implementation 'org.slf4j:slf4j-api:2.0.18'
       implementation 'com.github.tony19:logback-android:3.0.0'
       testImplementation 'ch.qos.logback:logback-classic:1.2.11'
     }
@@ -142,7 +142,7 @@ _Gradle_ **release**
 
 ```groovy
 dependencies {
-  implementation 'org.slf4j:slf4j-api:2.0.7'
+  implementation 'org.slf4j:slf4j-api:2.0.18'
   implementation 'com.github.tony19:logback-android:3.0.0'
 }
 ```
@@ -155,7 +155,7 @@ repositories {
 }
 
 dependencies {
-  implementation 'org.slf4j:slf4j-api:2.0.7'
+  implementation 'org.slf4j:slf4j-api:2.0.18'
   implementation 'com.github.tony19:logback-android:3.0.1-SNAPSHOT'
 }
 ```
